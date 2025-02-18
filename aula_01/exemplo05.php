@@ -2,9 +2,3 @@
 $ncampeão = "penta";
 echo "O Brasil é $ncampeão!";
 ?>
-
-<?php
-
-    
-
-?>
