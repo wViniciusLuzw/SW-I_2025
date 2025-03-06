@@ -1,0 +1,25 @@
+<h4>Usando o método GET, crie um formulário que receba o nome do estudante, 3 notas de
+Zero à Dez e calcule a média quando um botão de submit for pressionado! Faça a
+validação dos campos de modo que usuário tenha que preencher todos os campos e
+todos numéricos</h4>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exerGet_01</title>
+</head>
+
+<body>
+    <form action="exerProcessGET_01.php" method="GET">
+        <h1>Formulário</h1>
+        <p>Digite o nome do estudante: <input type="text" name="cxnome" id="" required> </p>
+        <p>Digite a Primeira nota: <input type="text" name="cxnota01" id="" min="1" max="10" required> </p>
+        <p>Digite a Segunda nota: <input type="text" name="cxnota02" id="" min="1" max="10" required> </p>
+        <p>Digite a Terceira nota: <input type="text" name="cxnota03" id="" min="1" max="10" required> </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
