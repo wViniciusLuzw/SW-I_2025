@@ -2,6 +2,8 @@
     $num01 = $_GET['cxnum01'];
     $num02 = $_GET['cxnum02'];
     $num03 = $_GET['cxnum03'];
+    $maior = 0;
+    
 
     if (is_numeric($num01) && is_numeric($num02) && is_numeric($num03)){
         if (($num03 < $num01) && ($num02 < $num01)){
@@ -11,6 +13,7 @@
         } else{
             echo "num03 é maior";
         }
+        
     }else{
         echo "<p>Digite um valor válido</p>";
     }
