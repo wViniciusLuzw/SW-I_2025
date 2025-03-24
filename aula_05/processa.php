@@ -1,6 +1,6 @@
 <?php
-    $email = $_POST['email'];
-    $senha = $_POST['senha'];
+    $email = $_POST['cxemail'];
+    $senha = $_POST['cxsenha'];
 
     if ($email == "aluno@email.com" && $senha == "1234"){
         //SEGUE PARA A PÁGINA privada.php
