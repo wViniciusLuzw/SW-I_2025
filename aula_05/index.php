@@ -14,10 +14,12 @@
         <section id="content">
             <form action="processa.php" method="POST">
                 <h1>Login Form</h1>
-                <div>
+                <div class="antInput">
+                    <i class="iconF fa-solid fa-user"></i>
                     <input type="text" placeholder="Username" required="" id="username" name="cxemail" />
                 </div>
-                <div>
+                <div class="antInput">
+                    <i class="iconF fa-solid fa-lock"></i>
                     <input type="password" placeholder="Password" required="" id="password" name="cxsenha" />
                 </div>
                 <div>
