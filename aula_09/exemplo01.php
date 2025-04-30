@@ -21,5 +21,5 @@
 
     //Chamando um método da classe pessoa
     $fulano->MostrarDados();
-    $ciclano->MostrarDados();
+    $ciclano->Apresentar();
 ?>
