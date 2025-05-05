@@ -10,11 +10,11 @@ class Lampada{
 
     //Métodos
     public function Ligar(){
-        
+        $this->status = true;
     }
 
     public function Desligar(){
-
+        $this->status = false;
     }
 
     public function mostrarDados(){
@@ -22,7 +22,12 @@ class Lampada{
         echo "Tensao: " . $this->tensao . "<br>";
         echo "Potencia: " . $this->potencia . "<br>";
         echo "Cor: " . $this->cor . "<br>";
-        echo "Status: " . $this->status . "<br>";
+        
+        if ($this->status == true){
+            echo "Status: Ligada <br>";
+        }else{
+            echo "Status: Desligada <br>";
+        }
     }
 }
 
