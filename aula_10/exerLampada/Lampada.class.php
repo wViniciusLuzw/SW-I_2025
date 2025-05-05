@@ -20,9 +20,9 @@ class Lampada{
     public function mostrarDados(){
         echo "Fabricante: " . $this->fabricante . "<br>";
         echo "Tensao: " . $this->tensao . "<br>";
-        echo "Potencia: " . $this->potencia . "<br>";
+        echo "Potência: " . $this->potencia . "<br>";
         echo "Cor: " . $this->cor . "<br>";
-        
+
         if ($this->status == true){
             echo "Status: Ligada <br>";
         }else{
