@@ -13,6 +13,8 @@ class Carro{
         echo "Combustivel: " . $this->combustivel . "<br>";
         echo "Número de Portas: " . $this->numPortas . "<br>";
         echo "Capacidade do Tanque: " . $this->capacidade_tanque . "<br>";
+
+        echo "<hr>";
     }
 }
 
