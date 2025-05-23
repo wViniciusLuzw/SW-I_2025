@@ -6,8 +6,14 @@
     <title>Formulário</title>
 </head>
 <body>
+
+    <h3>Cadastrar Produto</h3>
+
     <form action="exProdutos.php" method="post">
-        <p><input type="text" name="nome" value="Nome"><input type="submit" value="Enviar"></p>
+        <p><input type="text" name="nome" placeholder="Nome" required></p>
+        <p><input type="number" name="valor" placeholder="Preço" required></p>
+        <p><input type="number" name="quant" min="0" placeholder="Quantidade" required></p>
+        <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
 </html>
