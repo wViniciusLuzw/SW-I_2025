@@ -8,7 +8,7 @@
 
     .container > div{
         padding: 50px;
-        background-color: #fff;
+        background-color: rgb(181, 85, 85);
         border-collapse: collapse;
         border: 2px solid black;
     }
